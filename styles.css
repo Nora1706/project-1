@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('art_career_guidance.jpg'); /* Add the URL of your background image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: rgba(212, 203, 216, 0.8);
+    color: #fff;
+    padding: 20px;
+    text-align: left;
+}
+
+
+.header h1 {
+    margin: 0;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.header p {
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+.header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.header nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.about {
+   
+    color: #fff;
+    padding: 20px;
+    text-align: center; /* Align text to the center */
+}
+
+.about h2 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.about p {
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+.container {
+    max-width: 300px; /* Adjust the maximum width as needed */
+    margin: 50px auto; /* Adjust the margin to center the container */
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 8px;
+    text-align: center;
+}
+
+.container h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.container p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+}
+
+input[type="text"],
+input[type="password"],
+button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background-color: #5c2354;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #581c50;
+}
+
+#loginMessage {
+    font-size: 14px;
+    color: rgb(236, 226, 226);
+}

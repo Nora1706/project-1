@@ -1,0 +1,39 @@
+.workshops-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  
+  .workshop {
+    background-color: #a0799b;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    width: 300px;
+  }
+  
+  .workshop h2 {
+    margin-bottom: 10px;
+  }
+  
+  .workshop p {
+    margin: 5px 0;
+  }
+
+  .workshop a {
+    display: block;
+    text-align: center;
+    gap: 2rem;
+    padding: 0.5rem 0rem;
+    margin:10px;
+    background-color: #492842;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 10px;
+  }
+  
+  .workshop a:hover {
+    background-color: #b96dc0;
+  }

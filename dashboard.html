@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="dashboard.css">
+</head>
+<body>
+    <!-- Header -->
+    <div class="header">
+        <h1>Expressive Echoes</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="programlist.html">Program List</a>
+            <a href="#">Premium</a>
+        </nav>
+    </div>
+
+    <!-- Main content area -->
+    <div class="main-content">
+        <h2>Select Stream</h2>
+        <!-- Stream buttons -->
+        <div class="stream-buttons">
+            <button class="button-small" onclick="redirectToMusic()">Music</button>
+            <button class="button-small" onclick="redirectToPage('art.html')">Art</button>
+            <button class="button-small" onclick="redirectToPage('filmmaking.html')">Filmmaking</button>
+            <button class="button-small" onclick="redirectToPage('craft.html')">Craft</button>
+            <button class="button-small" onclick="redirectToPage('acting.html')">Acting</button>
+        </div>
+    </div>
+
+    <script>
+        function redirectToMusic() {
+            window.location.href = "music.html";
+        }
+
+        function redirectToPage(pageUrl) {
+            window.location.href = pageUrl;
+        }
+    </script>
+</body>
+</html>
