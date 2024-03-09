@@ -10,12 +10,12 @@
     <!-- Include header -->
     <div class="header">
         <img src="C:\Users\Aaliya\Downloads.jpg" alt="PerformerPath Logo">
-        <h1>Expressive Echoes</h1>
+        <h1>PerformerPath
         <p>A platform for exploring and excelling in extracurricular activities</p>
         <nav>
             <a href="index.html">Home</a>
-            <a href="programlist.html">Program List</a>
-            <a href="#">Premium</a>
+            <a href="dashboard.html">Program List</a>
+            <a href="premium.html">Premium</a>
         </nav>
     </div>
 
@@ -28,22 +28,26 @@
     </div>
 
     <!-- Login form -->
-    <div class="container">
-        <h1>Login</h1>
-        <input type="text" placeholder="Username">
-        <input type="password" placeholder="Password">
-        <button onclick="login()">Login</button>
+    <form onsubmit="event.preventDefault(); login()">
+        <input type="text" id="usernameInput" placeholder="Username">
+        <input type="password" id="passwordInput" placeholder="Password">
+        <button type="submit">Login</button>
+    </form>
+    
+ 
+       
         <p id="loginMessage"></p>
     </div>
 
     <!-- JavaScript for login functionality -->
-    <script>
+    <!-- <script>
         function login() {
             // Dummy function for login, you can implement actual login logic here
             document.getElementById("loginMessage").innerText = "Login successful!";
             // Redirect to dashboard page after successful login
             window.location.href = "dashboard.html";
         }
-    </script>
+    </script> -->
+    <script src="./scripts.js"></script>
 </body>
 </html>

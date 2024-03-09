@@ -1,6 +1,7 @@
 function login() {
-    const username = document.getElementById('username').value;
-    const password = document.getElementById('password').value;
+    const username = document.getElementById('usernameInput').value;
+    const password = document.getElementById('passwordInput').value;
+    console.log(username, password, "hiiiiiii");
 
     // Send login credentials to server
     fetch('/login', {
@@ -8,14 +9,15 @@ function login() {
         headers: {
             'Content-Type': 'application/json'
         },
-        body: JSON.stringify({ username, password })
+        body: JSON.stringify({ username: username, password: password })
     })
-    .then(response => response.json())
-    .then(data => {
-        if (data.success) {
-            // Redirect to success page
-            window.location.href = '/success';
+    .then(response => {
+        if (response.ok) {
+            // Redirect to success page or do something else
+            console.log("success");
+            window.location.href = '/dashboard.html';
         } else {
+            // Handle non-200 status code
             alert('Invalid username or password');
         }
     })

@@ -14,18 +14,25 @@ const UserSchema = new mongoose.Schema({
 
 const User = mongoose.model('User', UserSchema);
 
-app.use(bodyParser.urlencoded({ extended: true }));
+app.use(bodyParser.json());
 app.use(express.static('public'));
 
 // Login route
 app.post('/login', async (req, res) => {
+
     const { username, password } = req.body;
+    console.log(req.body,"hiii")    
+    // const username  = "testuser"
+    // const password ="testpassword"
+    console.log(username,password,"username");
     try {
         const user = await User.findOne({ username, password }).exec();
         if (!user) {
-            res.redirect('/?login=failed');
+            // res.redirect('/?login=failed');
+            return res.status(401).json({ success: false, message: 'Invalid username or password.' });
         } else {
-            res.redirect('/dashboard.html?login=success');
+           return  res.status(200).json({ success: true });
+            // res.redirect('/dashboard.html?login=success');
         }
     } catch (error) {
         console.error(error);
