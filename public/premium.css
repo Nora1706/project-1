@@ -1,0 +1,177 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('art_career_guidance.jpg'); /* Add the URL of your background image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: rgba(113, 171, 181, 0.8);
+    color: #fff;
+    padding: 20px;
+    text-align: left;
+}
+
+
+.header h1 {
+    margin: 0;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.header p {
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+.header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.header nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+/* styles.css */
+
+/* Header */
+
+/* Main content area */
+.main-content {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.main-content h2 {
+    margin-bottom: 20px;
+}
+
+/* Subscription plans */
+.subscription-plan {
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.subscription-plan h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.subscription-plan p {
+    margin-bottom: 10px;
+}
+
+.subscription-plan ul {
+    list-style: none;
+    padding: 0;
+}
+
+.subscription-plan ul li {
+    margin-bottom: 5px;
+}
+
+.subscribe-btn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.subscribe-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Styling for Beginner Plan */
+#beginner-plan {
+    background-color: #007bff;
+}
+
+#beginner-plan h3,
+#beginner-plan p,
+#beginner-plan ul li {
+    color: #fff;
+}
+
+/* Styling for Skilled Plan */
+#skilled-plan {
+    background-color: #0056b3;
+}
+
+#skilled-plan h3,
+#skilled-plan p,
+#skilled-plan ul li {
+    color: #fff;
+}
+
+/* Main content area */
+/* premium.css */
+
+/* Main content area */
+.main-content {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    /* Change background color to white */
+    border-radius: 8px;
+    text-align: center;
+    color: #fff; /* Set text color to white */
+}
+
+/* Other styles for subscription plans */
+.subscription-plan {
+    margin-bottom: 40px;
+}
+
+.subscription-plan h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #4b1e1e; /* Set text color to white */
+}
+
+.subscription-plan p strong {
+    margin-bottom: 10px;
+    color:black; /* Set text color to white */
+}
+
+.subscription-plan ul {
+    list-style: none;
+    padding: 0;
+    color:black; /* Set text color to white */
+}
+
+.subscription-plan ul li {
+    margin-bottom: 5px;
+}
+
+.subscribe-btn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.subscribe-btn:hover {
+    background-color: #0056b3;
+}

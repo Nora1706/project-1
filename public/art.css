@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('art_career_guidance.jpg'); /* Add the URL of your background image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: rgba(115, 57, 117, 0.8);
+    color: #f0e7e7;
+    padding: 20px;
+    text-align: left;
+}
+
+
+.header h1 {
+    margin: 0;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.header p {
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+.header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.header nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+.profession-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .profession {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 30px;
+    margin: 10px;
+    width: 400px;
+   
+  }
+  
+  .profession h2 {
+    color: #c2b8b8;
+    margin-bottom: 10px;
+  }
+  
+  .profession ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .profession ul li {
+    margin-bottom: 5px;
+  }
+  
+  .profession a {
+    display: block;
+    text-align: center;
+    gap: 2rem;
+    padding: 0.5rem 0rem;
+    margin:10px;
+    background-color: #a37da8;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 10px;
+  }
+  
+  .profession a:hover {
+    background-color: #c15c7e;
+  }
