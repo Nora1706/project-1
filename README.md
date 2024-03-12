@@ -12,8 +12,8 @@ Join us on this journey of exploration and creativity!
 HTML,CSS,JAVASCRIPT,MONGODB,NODE.JS
 
 ## INSTALLATION
-  1. git clone https://github.com/Alexmathai2001/E-rental-website.git
-  2. cd E-rental-website
+  1. git clone https:https://github.com/Nora1706/project-1.git
+  2. cd performerpathwebsite
   3. npm install
   4. npm run start
   
